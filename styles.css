@@ -1,0 +1,71 @@
+/* General Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Header */
+.main-header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.main-header h1 {
+  margin-bottom: 10px;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+/* Introduction Section */
+.intro-section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Content Section */
+.content-section {
+  background-color: #e0e0e0;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+/* Footer */
+.main-footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+/* Utility for visualizing the Box Model */
+.card, .intro-section, .content-section {
+  outline: 1px dashed red;
+}
